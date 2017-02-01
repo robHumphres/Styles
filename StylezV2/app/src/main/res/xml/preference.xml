@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <SwitchPreference
+        android:key="singleMessageNotifications"
+        android:title="Single message notifications? " />
+
+    <SwitchPreference
+        android:key="groupNotifications"
+        android:title="Group message Notifications?" />
+
+
+    <SwitchPreference
+        android:key="@string/isDiscoverable"
+        android:title="@string/discoverable" />
+
+    <com.example.forexamplejohn.stylezv2.Pref_files.SeekBarPreference
+        android:dependency="@string/isDiscoverable"
+        android:defaultValue="10"
+        android:dialogMessage="Set how far you want to trade"
+        android:key="milesTrade"
+        android:max="100"
+        android:summary="@string/searchingDistance"
+        android:text="Miles"
+        android:title="Search Distance" />
+
+
+
+
+</PreferenceScreen>

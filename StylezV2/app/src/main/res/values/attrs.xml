@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    *   <declare-styleable name="SeekBarPreference">
+    *      <attr name="SBmax" format="integer" />
+    *      <attr name="SBmin" format="integer" />
+    *      <attr name="SBdialogMessage" format="string" />
+    *      <attr name="SBsuffix" format="string" />
+    *   </declare-styleable>
+    * </resources>
